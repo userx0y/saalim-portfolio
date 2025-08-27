@@ -40,7 +40,7 @@ const Home = () => {
             <h1 data-aos="fade-in">Hello!</h1>
             <h1 data-aos="fade-in">My Name is Mohammed Saalim Kartapillai</h1>
             <h4 data-aos="zoom-in" style={{color: 'gray'}}>I’m passionate about coding and creating projects that solve real problems.</h4>
-            <br />
+            <br /><br /><br />
             <h1 style={{color: 'rgb(180, 157, 91)'}}>Quick REVIEW</h1>
             <a href="#tech-stack" className="btn btn-outline-warning mt-3" style={{borderRadius: "30px", padding: "10px 20px", fontWeight: "600"}}>Go to Tech Stack Section</a><br />
             <a href="#academics-section" className="btn btn-outline-warning mt-3" style={{borderRadius: "30px", padding: "10px 20px", fontWeight: "600"}}>Go to Academic Section</a>
@@ -56,10 +56,10 @@ const Home = () => {
             </div>
         </div>
     </div>
-    <div className="container-fluid text-center tech-stack-heading" id="tech-stack" style={{height: '50px', fontFamily: "'Montserrat'", backgroundColor: '#1a1a1a'}}>
+    <div className="container-fluid text-center tech-stack-heading" id="tech-stack" style={{paddingTop: '50px',height: '100px', fontFamily: "'Montserrat'", backgroundColor: '#1a1a1a'}}>
         <h1 data-aos="fade-in" style={{fontSize: '30px', color: 'rgb(180, 157, 91)'}} >TECH STACK</h1>
     </div>
-    <div className="container-fluid gap-4 d-flex tech-logo" style={{backgroundColor: '#1a1a1a', height: "150px", justifyContent: 'center'}}>
+    <div className="container-fluid gap-4 d-flex tech-logo" style={{backgroundColor: '#1a1a1a', height: "100px", justifyContent: 'center'}}>
         <div className="card mb-3" style={{maxWidth: "18rem", height: '150px', border: 'none'}}>
             <div className="card-body card-body-logo" style={{backgroundColor: '#1a1a1a'}}>
                 <h1 className="card-title" style={{fontSize: '100px'}}><i data-aos="fade-in" className="devicon-csharp-plain colored"></i></h1>
@@ -98,7 +98,7 @@ const Home = () => {
             </div>
         </div>
     </div>
-    <div className="container-fluid" style={{backgroundColor: '#1a1a1a', height: '600px', display: 'flex', justifyContent: 'center'}}>
+    <div className="container-fluid svce-section" style={{backgroundColor: '#1a1a1a', height: '550px', display: 'flex', justifyContent: 'center'}}>
         <div class="card mb-3" style={{border: 'none', height: '50px'}}>
             <img className="svce-image" src="../../assets/svce.jpg" class="card-img-top" alt="no_image" style={{width: '100%', height: '167px', objectFit: 'cover'}} />
             <div class="card-body text-white" style={{backgroundColor: 'rgb(47, 48, 49)', fontFamily: "'Montserrat'", maxWidth:'900px'}}>
@@ -119,6 +119,9 @@ const Home = () => {
         span{
         font-size : 19px !important;
         }
+        .svce-section{
+        height : 400px !important;
+        }
         .text-below-span{
         margin-top : 20px !important;
         font-size : 1.2rem !important;
@@ -137,7 +140,8 @@ const Home = () => {
         height : 1000px !important;
         }
         .tech-stack-heading{
-        height : 250px !important;
+        height : 400px !important;
+        padding-top : 100px !important;
         }
         .tech-logo{
         padding-top : 150px !important;
