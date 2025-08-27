@@ -67,6 +67,63 @@ const Projects = () => {
         </div>
         </div>
     </div>
+    <div className="container-fluid d-flex pt-5 card-3" style={{backgroundColor: '#1a1a1a', height: '400px', justifyContent: 'center'}}>
+        <div class="card mb-3" data-aos="zoom-in" style={{maxWidth: "540px", height: '300px', color: 'white', border: '1px solid rgb(47, 48, 49)'}}>
+        <div class="row g-0" style={{height: '100%'}}>
+            <div class="col-md-4" style={{display: 'flex'}}>
+            <img src="../../assets/poly.jpg" class="img-fluid rounded-start" alt="noimage" style={{objectFit: 'contain'}}/>
+            </div>
+            <div class="col-md-8">
+            <div class="card-body text-white" style={{backgroundColor: 'rgb(47, 48, 49)', height: '100%', fontFamily: "'Montserrat'"}}>
+                <h5 class="card-title"><b style={{color: 'rgb(180, 157, 91)'}}>Polly Library - Unit Testing and Code Coverage</b></h5>
+                <br />
+                <p class="card-text">
+                    Contributions to Polly, a popular .NET resilience tool, where I wrote extensive unit tests to improve code quality and stability for the RateLimiting feature.
+                </p>
+                <p class="card-text"><small class="text-body-secondary"><a href="https://github.com/App-vNext/Polly/pull/2711" target='_blank' rel='noopener noreferrer'>https://github.com/App-vNext/Polly/pull/2711</a></small></p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div className="container-fluid d-flex pt-5 card-3" style={{backgroundColor: '#1a1a1a', height: '400px', justifyContent: 'center'}}>
+        <div class="card mb-3" data-aos="zoom-in" style={{maxWidth: "540px", height: '300px', color: 'white', border: '1px solid rgb(47, 48, 49)'}}>
+        <div class="row g-0" style={{height: '100%'}}>
+            <div class="col-md-4" style={{display: 'flex'}}>
+            <img src="../../assets/poly.jpg" class="img-fluid rounded-start" alt="noimage" style={{objectFit: 'contain'}}/>
+            </div>
+            <div class="col-md-8">
+            <div class="card-body text-white" style={{backgroundColor: 'rgb(47, 48, 49)', height: '100%', fontFamily: "'Montserrat'"}}>
+                <h5 class="card-title"><b style={{color: 'rgb(180, 157, 91)'}}>Polly Library - New Caching Strategy (IHybrid)</b></h5>
+                <br />
+                <p class="card-text">
+                    A significant contribution to the Polly library, involving the implementation of a new Polly.Caching package to provide developers with a powerful caching strategy.
+                </p>
+                <p class="card-text"><small class="text-body-secondary"><a href="https://github.com/App-vNext/Polly/pull/2709" target='_blank' rel='noopener noreferrer'>https://github.com/App-vNext/Polly/pull/2709</a></small></p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div className="container-fluid d-flex pt-5 card-3" style={{backgroundColor: '#1a1a1a', height: '400px', justifyContent: 'center'}}>
+        <div class="card mb-3" data-aos="zoom-in" style={{maxWidth: "540px", height: '300px', color: 'white', border: '1px solid rgb(47, 48, 49)'}}>
+        <div class="row g-0" style={{height: '100%'}}>
+            <div class="col-md-4" style={{display: 'flex'}}>
+            <img src="../../assets/neighborly.jpg" class="img-fluid rounded-start" alt="noimage" style={{objectFit: 'contain'}}/>
+            </div>
+            <div class="col-md-8">
+            <div class="card-body text-white" style={{backgroundColor: 'rgb(47, 48, 49)', height: '100%', fontFamily: "'Montserrat'"}}>
+                <h5 class="card-title"><b style={{color: 'rgb(180, 157, 91)'}}>Neighborly: A Hyperlocal Talent Marketplace</b></h5>
+                <br />
+                <p class="card-text">
+                    A full-stack application in development that connects local talent with market demands. The platform is built with ReactJS, .NET, and MongoDB Atlas.
+                </p>
+                <p class="card-text"><small class="text-body-secondary"><a href="https://github.com/mohammed-saalim/Neighborly" target='_blank' rel='noopener noreferrer'>https://github.com/mohammed-saalim/Neighborly</a></small></p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
     <style>
         {`
         @media(max-width: 768px){
