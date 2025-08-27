@@ -5,6 +5,7 @@ import Button from "../components/Button";
 import TechStackButton from "../components/TechStackButton";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { NavLink } from "react-router-dom";
 const Home = () => {
     const ref = useRef(null);
     useEffect(()=>{
@@ -43,7 +44,8 @@ const Home = () => {
             <br /><br /><br />
             <h1 style={{color: 'rgb(180, 157, 91)'}}>Quick REVIEW</h1>
             <a href="#tech-stack" className="btn btn-outline-warning mt-3" style={{borderRadius: "30px", padding: "10px 20px", fontWeight: "600"}}>Go to Tech Stack Section</a><br />
-            <a href="#academics-section" className="btn btn-outline-warning mt-3" style={{borderRadius: "30px", padding: "10px 20px", fontWeight: "600"}}>Go to Academic Section</a>
+            <a href="#academics-section" className="btn btn-outline-warning mt-3" style={{borderRadius: "30px", padding: "10px 24px", fontWeight: "600"}}>Go to Academic Section</a><br/>
+            <NavLink to="projects" className="btn btn-outline-warning mt-3" style={{borderRadius: "30px", padding: "10px 47px", fontWeight: "600"}}>Go to Open Source</NavLink>
         </div>
         <div className="certificates" style={{paddingTop: '100px'}}>
             <h1 className="pb-3" style={{fontSize: '30px', color : 'rgb(180, 157, 91)'}}>CERTIFICATES</h1>

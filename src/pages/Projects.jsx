@@ -48,7 +48,7 @@ const Projects = () => {
         </div>
         </div>
     </div>
-    <div className="container-fluid d-flex pt-5 card-3" style={{backgroundColor: '#1a1a1a', height: '400px', justifyContent: 'center'}}>
+    <div className="container-fluid d-flex pt-5 card-3 mm-card" style={{backgroundColor: '#1a1a1a', height: '400px', justifyContent: 'center'}}>
         <div class="card mb-3" data-aos="zoom-in" style={{maxWidth: "540px", height: '300px', color: 'white', border: '1px solid rgb(47, 48, 49)'}}>
         <div class="row g-0" style={{height: '100%'}}>
             <div class="col-md-4" style={{display: 'flex'}}>
@@ -138,10 +138,13 @@ const Projects = () => {
         height : 750px !important;
         }
         .card-2{
-        height :750px !important;
+        height : 750px !important;
         }
         .card-3{
         height : 600px !important;
+        }
+        .mm-card{
+        height : 800px !important;
         }
         .card-3 .col-md-4 {
             display: flex !important;

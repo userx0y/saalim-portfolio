@@ -400,7 +400,7 @@ const TechStack = () => {
             </SwiperSlide>
         </Swiper>
     </div>
-    <div className="container-fluid pt-5 text-center" style={{backgroundColor: '#1a1a1a', height: '450px'}}>
+    {/* <div className="container-fluid pt-5 text-center" style={{backgroundColor: '#1a1a1a', height: '450px'}}>
         <h1 style={{color: 'rgb(180, 157, 91)', fontFamily: '"Montserrat"', fontSize: '30px'}}>Relevant Skills</h1><br />
         <Swiper modules={[Autoplay]} loop={true} speed={5000} slidesPerView={1} spaceBetween={30} autoplay={{delay: 0}}>
             <SwiperSlide>
@@ -408,13 +408,13 @@ const TechStack = () => {
                     <div className="card" style={{width: '18rem', border: 'none'}}>
                         <i className="devicon text-white" style={{backgroundColor: '#1a1a1a', paddingTop: '15px', fontSize: '20px'}}>Microsoft Office</i>
                         <div className="card-body" style={{backgroundColor: '#1a1a1a'}}>
-                            {/* <p className="card-text text-white pt-5 ms-office">Microsoft Office</p> */}
+                            <p className="card-text text-white pt-5 ms-office">Microsoft Office</p>
                         </div>
                     </div>
                     <div className="card" style={{width: '18rem', border: 'none'}}>
                         <i className="devicon text-white" style={{backgroundColor: '#1a1a1a', paddingTop: '15px', fontSize: '20px'}}>Excel</i>
                         <div className="card-body" style={{backgroundColor: '#1a1a1a'}}>
-                            {/* <p className="card-text text-white pt-5">Excel</p> */}
+                            <p className="card-text text-white pt-5">Excel</p>
                         </div>
                     </div>
                 </div>
@@ -424,13 +424,13 @@ const TechStack = () => {
                     <div className="card" style={{width: '18rem', border: 'none'}}>
                         <i className="devicon text-white" style={{backgroundColor: '#1a1a1a', paddingTop: '15px', fontSize: '20px'}}>Quality Assurance</i>
                         <div className="card-body" style={{backgroundColor: '#1a1a1a'}}>
-                            {/* <p className="card-text text-white pt-5">Quality Assurance</p> */}
+                            <p className="card-text text-white pt-5">Quality Assurance</p>
                         </div>
                     </div>
                     <div className="card" style={{width: '18rem', border: 'none'}}>
                         <i className="devicon text-white" style={{backgroundColor: '#1a1a1a', paddingTop: '15px', fontSize: '20px'}}>Systems Analysis</i>
                         <div className="card-body" style={{backgroundColor: '#1a1a1a'}}>
-                            {/* <p className="card-text text-white pt-5">Systems Analysis</p> */}
+                            <p className="card-text text-white pt-5">Systems Analysis</p>
                         </div>
                     </div>
                 </div>
@@ -440,19 +440,19 @@ const TechStack = () => {
                     <div className="card" style={{width: '18rem', border: 'none'}}>
                         <i className="devicon text-white" style={{backgroundColor: '#1a1a1a', paddingTop: '15px', fontSize: '20px'}}>Trizetto</i>
                         <div className="card-body" style={{backgroundColor: '#1a1a1a'}}>
-                            {/* <p className="card-text text-white pt-5 trizetto">Trizetto</p> */}
+                            <p className="card-text text-white pt-5 trizetto">Trizetto</p>
                         </div>
                     </div>
                     <div className="card" style={{width: '18rem', border: 'none'}}>
                         <i className="devicon text-white" style={{backgroundColor: '#1a1a1a', paddingTop: '15px', fontSize: '20px'}}>Healthcare Industry</i>
                         <div className="card-body" style={{backgroundColor: '#1a1a1a'}}>
-                            {/* <p className="card-text text-white pt-5">Healthcare Industry</p> */}
+                            <p className="card-text text-white pt-5">Healthcare Industry</p>
                         </div>
                     </div>
                 </div>
             </SwiperSlide>
         </Swiper>
-    </div>
+    </div> */}
     <style>
         {`
         @media(max-width: 768px){
