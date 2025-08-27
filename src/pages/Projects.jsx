@@ -141,7 +141,16 @@ const Projects = () => {
         height :750px !important;
         }
         .card-3{
-        height : 800px !important;
+        height : 600px !important;
+        }
+        .card-3 .col-md-4 {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+        .card-3 img {
+            margin: 0 auto !important;
+            display: block !important;
         }
         }
         `}
