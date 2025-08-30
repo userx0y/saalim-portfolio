@@ -69,17 +69,17 @@ const Home = () => {
         </div>
         <div className="card mb-3" style={{maxWidth: "18rem", height: '150px', border: 'none'}}>
             <div className="card-body card-body-logo" style={{backgroundColor: '#1a1a1a'}}>
-                <h1 className="card-title" style={{fontSize: '100px'}}><i class="devicon-dotnetcore-plain colored"></i></h1>
+                <h1 className="card-title" style={{fontSize: '100px'}}><i data-aos="fade-in" class="devicon-dotnetcore-plain colored"></i></h1>
             </div>
         </div>
         <div className="card mb-3" style={{maxWidth: "18rem", height: '150px', border: 'none'}}>
             <div className="card-body card-body-logo" style={{backgroundColor: '#1a1a1a'}}>
-                <h1 className="card-title" style={{fontSize: '100px'}}><i class="devicon-azure-plain colored"></i></h1>
+                <h1 className="card-title" style={{fontSize: '100px'}}><i data-aos="fade-in" class="devicon-azure-plain colored"></i></h1>
             </div>
         </div>
         <div className="card mb-3" style={{maxWidth: "18rem", height: '150px', border: 'none'}}>
             <div className="card-body card-body-logo" style={{backgroundColor: '#1a1a1a'}}>
-                <h1 className="card-title" style={{fontSize: '100px'}}><i class="devicon-react-original colored"></i></h1>
+                <h1 className="card-title" style={{fontSize: '100px'}}><i data-aos="fade-in" class="devicon-react-original colored"></i></h1>
             </div>
         </div>
     </div>
